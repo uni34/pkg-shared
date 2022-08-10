@@ -1,6 +1,9 @@
 {
   "name": "mt-shared",
   "version": "0.0.1",
+  "scripts": {
+    "build": "ng build mt-shared"
+  },
   "peerDependencies": {
     "@angular/common": "^14.1.0",
     "@angular/core": "^14.1.0"
