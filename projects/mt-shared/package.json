@@ -1,6 +1,10 @@
 {
   "name": "mt-shared",
   "version": "0.0.1",
+  "main": "index.d.js",
+  "module": "mt-shared.module.js",
+  "jsnext:main": "mt-shared.module.js",
+  "types": "mt-shared.module.d.js",
   "scripts": {
     "build": "ng build mt-shared"
   },
@@ -10,5 +14,19 @@
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uni34/pkg-shared.git"
+  },
+  "keywords": [
+    "directives",
+    "shared"
+  ],
+  "author": "kristina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uni34/pkg-shared/issues"
+  },
+  "homepage": "https://github.com/uni34/pkg-shared#readme"
 }
